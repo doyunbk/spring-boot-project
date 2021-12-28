@@ -78,7 +78,7 @@ curl --location --request GET 'http://localhost:8080/api/order/' \
 
 ## 🤔 Thoughts 
 
-When a number of users is trying to order investment products at the same time,
+When a number of users are trying to order investment products at the same time,
 a huge bottleneck could be an issue about accessing data and reliability of the system.
 
 `Synchronized methods` is being used as an implicit lock to allow only one thread to execute at any given time.
